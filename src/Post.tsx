@@ -27,16 +27,16 @@ export function Post({ onDelete }: PostProps) {
         <Col xs="auto">
           <Stack gap={2} direction="horizontal">
             <Link to={`/${Post.id}/edit`}>
-              <Button variant="primary">Edit</Button>
+              <Button variant="primary">Editer</Button>
             </Link>
             <Button
               onClick={() => {
                 onDelete(Post.id)
                 navigate("/")
               }}
-              variant="outline-danger">Delete</Button>
+              variant="outline-danger">Supprimer</Button>
             <Link to="..">
-              <Button variant="outline-secondary">Back</Button>
+              <Button variant="outline-secondary">Retour</Button>
             </Link>
           </Stack>
         </Col>

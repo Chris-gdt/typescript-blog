@@ -64,13 +64,13 @@ export function PostForm({ onSubmit, onAddTag, availableTags, title = "", markdo
           </Col>
         </Row>
         <Form.Group controlId="markdown">
-          <Form.Label>Body</Form.Label>
+          <Form.Label>Contenu</Form.Label>
           <Form.Control defaultValue={markdown} ref={markdownRef} required as="textarea" rows={15} />
         </Form.Group>
         <Stack direction="horizontal" gap={2} className="justify-content-end">
-          <Button type="submit" variant="primary">Save</Button>
+          <Button type="submit" variant="primary">Ajouter</Button>
           <Link to="..">
-            <Button type="button" variant="outline-secondary">Cancel</Button>
+            <Button type="button" variant="outline-secondary">Retour</Button>
           </Link>
         </Stack>
       </Stack>

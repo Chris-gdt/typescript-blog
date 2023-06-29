@@ -41,7 +41,7 @@ export function PostList({ availableTags, Posts }: PostListProps) {
       <Col xs="auto">
         <Stack gap={2} direction="horizontal">
           <Link to="/new">
-            <Button variant="primary">Create Post</Button>
+            <Button variant="primary">Créer une news</Button>
           </Link>
         </Stack>
       </Col>
